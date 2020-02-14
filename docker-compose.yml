@@ -11,10 +11,10 @@ services:
       volumes:
         - db-data:/application
       environment:
-        - MYSQL_ROOT_PASSWORD=docker_root
+        - MYSQL_ROOT_PASSWORD=affordplan%40%21%40%231
         - MYSQL_DATABASE=sf4_db
-        - MYSQL_USER=sf4_user
-        - MYSQL_PASSWORD=sf4_pw
+        - MYSQL_USER=admin
+        - MYSQL_PASSWORD=affordplan%40%21%40%231
       ports:
         - "8306:3306"
 
@@ -25,10 +25,10 @@ services:
       volumes:
         - db-data:/application
       environment:
-        - MYSQL_ROOT_PASSWORD=docker_root
+        - MYSQL_ROOT_PASSWORD=affordplan%40%21%40%231
         - MYSQL_DATABASE=sf4_db_test
-        - MYSQL_USER=sf4_user_test
-        - MYSQL_PASSWORD=sf4_pw_test
+        - MYSQL_USER=admin
+        - MYSQL_PASSWORD=affordplan%40%21%40%231
       ports:
         - "8307:3306"
 
